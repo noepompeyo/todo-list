@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Todo App</title>
+  </head>
+  <body>
+    <header class="flex justify-center ">
+      <nav class="w-4/5 h-10 bg-cyan-200 rounded-3xl mt-6
+      mb-5">
+        <h1 class="text-3xl font-bold text-center text-gray-700"> Lista de tareas</h1>
+      </nav>
+    </header>
+    <main class="flex justify-center">
+      
+      <section class="w-4/5 flex justify-center border p-4 rounded-2xl">
+        <form action="" class="" id="form">
+          
+            <input 
+            id="input"
+            type="text"
+            autofocus
+            placeholder="Nueva tarea"
+            class="border p-3 mb-4 rounded-2xl w-4/5 font-bold"
+            >
+
+          
+          <button 
+          id="addButton"
+          class="py-2 px-4 rounded-3xl bg-cyan-300 text-gray-600 font-bold"
+           type="submit">Añadir tarea</button>
+        </form>
+      </section>
+      <section>
+        <div id="tareas">
+
+        </div>
+      </section>
+      
+    </main>
+
+
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
